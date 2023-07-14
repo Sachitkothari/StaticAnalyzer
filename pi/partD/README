@@ -1,0 +1,14 @@
+Reachability Checker
+
+This program reads in a call graph file and determines the unreachable functions. Unreachable functions are functions that are defined but never called. The program is written in Java and can be run in any Java environment.
+
+Usage
+To run the program, use the following command:
+
+java reachabilityChecker.java
+
+The program will read the call graph file "call_graph.txt". You can modify the path in the program to your call graph file.
+
+Output
+
+The program will output the list of unreachable functions and the size of this list to a file named "out.txt".

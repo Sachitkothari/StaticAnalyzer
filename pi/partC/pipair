@@ -1,0 +1,8 @@
+#!/bin/bash
+opt -print-callgraph $1 >/dev/null 2>call_graph.txt
+java -Xms128m -Xmx128m ../srcPartC.java $1 $2 $3 $4
+
+#Take this file and srcPartC.java + make file to proj-skeleton folder, then make and run.
+#Do not run within pi/partC folder
+
+#Or run in pi/partC folder but give ../../testx/.bc for bitcode file path

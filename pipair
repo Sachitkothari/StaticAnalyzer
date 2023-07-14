@@ -1,0 +1,5 @@
+#!/bin/bash
+opt -print-callgraph $1 >/dev/null 2>call_graph.txt
+java -Xms128m -Xmx128m ../src.java $1 $2 $3
+
+#Take this file and src.java + make file to proj-skeleton folder, then run verify.sh.

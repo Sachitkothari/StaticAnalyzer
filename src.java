@@ -10,7 +10,7 @@ import java.io.IOException;
 public class src {
     //Needed variables for analysis. callGraph respresents the entire call graph data is read into.
     //Bug reports are the final reports to be printed, errors store needed information to create the bug reports.
-    //Individual supports store each functions support value for support value for confidence calculation.
+    //Individual supports store each functions support value for confidence calculation.
     static HashMap<String, ArrayList<String>> callGraph = new HashMap<>();
     static ArrayList<BugReport> bugReports = new ArrayList<>();
     static ArrayList<Error> errors = new ArrayList<>();
